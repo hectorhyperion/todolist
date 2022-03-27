@@ -1,0 +1,45 @@
+.flo{
+    float: right;
+    margin-right: 10%;
+    width: 100%;
+    margin-left:30%;
+
+}
+.ww{
+    float: left;
+    margin-left: 8.5%;
+   margin-top: -3%;
+   width: 100%;
+   margin-bottom: 5%;
+
+}
+.text{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 10%;
+    border-bottom-left-radius: 6px;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 5.4%;
+}
+.rre{
+   text-align: center;
+   text-transform: capitalize;
+   text-decoration:dotted;
+    margin-top: 5%;
+}
+
+.ed{
+     margin: 5.5%;
+     margin-left: 40%;
+    width: 100%;
+    justify-items: center;
+
+}
+.center{
+    margin-bottom: 5rem;
+    border: 5px solid sandybrown;
+    padding: 10px;
+    float: right;
+   margin-right: 5em;
+}
