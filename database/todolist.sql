@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 28, 2022 at 01:04 AM
+-- Generation Time: Mar 30, 2022 at 10:32 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.28
 
@@ -20,6 +20,25 @@ SET time_zone = "+00:00";
 --
 -- Database: `todolist`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `login`
+--
+
+CREATE TABLE `login` (
+  `id` int(11) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `login`
+--
+
+INSERT INTO `login` (`id`, `email`, `password`) VALUES
+(1, 'agimqwertyakomaye@gmail.com', '12345');
 
 -- --------------------------------------------------------
 
@@ -46,6 +65,12 @@ INSERT INTO `todolist` (`id`, `additem`) VALUES
 --
 
 --
+-- Indexes for table `login`
+--
+ALTER TABLE `login`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `todolist`
 --
 ALTER TABLE `todolist`
@@ -54,6 +79,12 @@ ALTER TABLE `todolist`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `login`
+--
+ALTER TABLE `login`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `todolist`
