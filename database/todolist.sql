@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 30, 2022 at 10:32 PM
+-- Generation Time: Apr 01, 2022 at 10:04 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.28
 
@@ -38,7 +38,7 @@ CREATE TABLE `login` (
 --
 
 INSERT INTO `login` (`id`, `email`, `password`) VALUES
-(1, 'agimqwertyakomaye@gmail.com', '12345');
+(1, 'agimqwertyakomaye@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b');
 
 -- --------------------------------------------------------
 
@@ -56,9 +56,9 @@ CREATE TABLE `todolist` (
 --
 
 INSERT INTO `todolist` (`id`, `additem`) VALUES
-(1, 'dc'),
 (2, 'sss'),
-(3, 'dc');
+(3, 'dc'),
+(4, 'help guest');
 
 --
 -- Indexes for dumped tables
@@ -90,7 +90,7 @@ ALTER TABLE `login`
 -- AUTO_INCREMENT for table `todolist`
 --
 ALTER TABLE `todolist`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

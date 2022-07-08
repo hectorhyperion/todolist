@@ -6,7 +6,7 @@
 		public function login(){
 			// Validate
 			$arr['email'] = $this->input->post('email');
-			$arr['password'] = $this->input->post('password');
+			$arr['password'] =md5( $this->input->post('password'));
 			return $this->db->get_where('login' , $arr)->row();
 			 
         }

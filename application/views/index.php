@@ -39,6 +39,7 @@
          </div>
          
          <?php
+		 
                 foreach ($do as $todo) 
                 {
                     ?>

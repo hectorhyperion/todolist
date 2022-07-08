@@ -18,7 +18,7 @@
          {
              //fetching data
              $this->load->model('todolist');
-
+			 
               $query['do']= $this->todolist->get();
                  
              $this->load->view('index',$query);
@@ -35,7 +35,7 @@
          if($this->form_validation->run() == FALSE)
         {
            
-           $this->load->view('index');
+         redirect('index');
        }
          else{
            
