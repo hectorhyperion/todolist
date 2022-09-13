@@ -14,14 +14,12 @@
 
    <div class="card flo align top" style="width: 18rem; background-color: aliceblue;">
    <div class="card-body ">
-   
-   <?php echo validation_errors(); ?>
-
-    <?php echo form_open('index/form'); ?>
+      <?php echo form_open('index/form'); ?>
     <div class="container rre">
         <div class="form-group ">
          <label for="additem" name="Add" >Add a New item</label>
             <input type="text" name="add" class="form-control-sm" id="additem" >
+			<?php echo form_error('add'); ?>
         </div>
             <button class="btn btn-success" type="submit">Add</button>
     </div>
